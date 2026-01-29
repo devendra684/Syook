@@ -17,6 +17,20 @@ This framework tests the login functionality of the ShopHub Pro e-commerce appli
 - Automatic waiting (no manual waits needed)
 - HTML reports with screenshots and videos for failed tests
 
+## 📊 View Live Test Report
+
+**🔗 [Click here to view the latest test execution report](https://devendra684.github.io/Syook/playwright-report/)**
+
+The test report includes:
+
+- ✅ Test execution summary with pass/fail status
+- 🖼️ Screenshots for failed tests
+- 🎥 Videos for failed tests
+- ⏱️ Execution time and browser information
+- 📈 Detailed test results across all browsers
+
+---
+
 ## Prerequisites
 
 You'll need:
@@ -259,7 +273,7 @@ The following test accounts are used:
 | User  | user@example.com  | user123  |
 | Guest | guest@demo.com    | guest123 |
 
-## 🎓 Best Practices -
+## 🎓 Best Practices
 
 1. **Always use Page Objects** - Never interact with elements directly in tests
 2. **Leverage auto-waiting** - Avoid hard waits and sleeps
@@ -268,7 +282,7 @@ The following test accounts are used:
 5. **Review failure artifacts** - Check screenshots and videos for debugging
 6. **Keep tests independent** - Each test should be able to run standalone
 
-## 📄 License -
+## 📄 License
 
 ISC
 
