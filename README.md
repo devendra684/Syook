@@ -259,7 +259,7 @@ The following test accounts are used:
 | User  | user@example.com  | user123  |
 | Guest | guest@demo.com    | guest123 |
 
-## 🎓 Best Practices
+## 🎓 Best Practices -
 
 1. **Always use Page Objects** - Never interact with elements directly in tests
 2. **Leverage auto-waiting** - Avoid hard waits and sleeps
@@ -268,7 +268,7 @@ The following test accounts are used:
 5. **Review failure artifacts** - Check screenshots and videos for debugging
 6. **Keep tests independent** - Each test should be able to run standalone
 
-## 📄 License
+## 📄 License -
 
 ISC
 
