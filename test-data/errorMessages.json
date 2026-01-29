@@ -1,0 +1,29 @@
+{
+  "errors": {
+    "invalidEmail": [
+      "Please enter a valid email",
+      "Invalid email format",
+      "Email is not valid",
+      "Please provide a valid email address"
+    ],
+    "invalidCredentials": [
+      "Invalid credentials",
+      "Invalid email or password",
+      "Login failed",
+      "Incorrect username or password",
+      "Authentication failed"
+    ],
+    "requiredField": [
+      "This field is required",
+      "Email is required",
+      "Password is required",
+      "Please fill in this field",
+      "Required"
+    ],
+    "emptyFields": [
+      "Please fill in all fields",
+      "All fields are required",
+      "Email and password are required"
+    ]
+  }
+}

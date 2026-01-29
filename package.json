@@ -1,0 +1,23 @@
+{
+  "name": "Bugbash Syook Shophub Automation",
+  "version": "1.0.0",
+  "description": "Playwright UI Automation Framework for ShopHub Pro Login Functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "testing", "e2e", "login"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
+

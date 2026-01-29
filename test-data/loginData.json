@@ -1,0 +1,76 @@
+{
+  "validCredentials": [
+    {
+      "description": "Admin user login",
+      "email": "admin@shophub.com",
+      "password": "admin123",
+      "expectedRole": "admin"
+    },
+    {
+      "description": "Regular user login",
+      "email": "user@example.com",
+      "password": "user123",
+      "expectedRole": "user"
+    },
+    {
+      "description": "Guest user login",
+      "email": "guest@demo.com",
+      "password": "guest123",
+      "expectedRole": "guest"
+    }
+  ],
+  "invalidCredentials": [
+    {
+      "description": "Invalid email format",
+      "email": "testemail",
+      "password": "password123",
+      "expectedError": "email"
+    },
+    {
+      "description": "Wrong password",
+      "email": "user@example.com",
+      "password": "pass1234",
+      "expectedError": "credentials"
+    },
+    {
+      "description": "Empty email",
+      "email": "",
+      "password": "password123",
+      "expectedError": "required"
+    },
+    {
+      "description": "Empty password",
+      "email": "user@example.com",
+      "password": "",
+      "expectedError": "required"
+    },
+    {
+      "description": "Both fields empty",
+      "email": "",
+      "password": "",
+      "expectedError": "required"
+    },
+    {
+      "description": "Non-existent user",
+      "email": "john@test.com",
+      "password": "password123",
+      "expectedError": "credentials"
+    },
+    {
+      "description": "Special characters in email",
+      "email": "user!@#$%@example.com",
+      "password": "password123",
+      "expectedError": "email"
+    },
+    {
+      "description": "Very long email",
+      "email": "verylongemailaddress.verylongemailaddress.verylongemailaddress@example.com",
+      "password": "password123",
+      "expectedError": "email"
+    }
+  ],
+  "uiTestData": {
+    "testEmail": "test@example.com",
+    "testPassword": "testpassword123"
+  }
+}
