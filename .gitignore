@@ -16,6 +16,10 @@ traces/
 *.webm
 *.zip
 
+# Exception: Allow media files in playwright-report for GitHub Pages
+!playwright-report/**/*.png
+!playwright-report/**/*.webm
+
 # IDE
 .vscode/
 .idea/
